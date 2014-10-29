@@ -1,0 +1,15 @@
+
+name = InnoEvent
+description = theme created by students of Web Development for InnoEvent 
+version = VERSION
+core = 7.x
+engine = phptemplate
+
+stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/colors.css
+
+
+regions[header] = Header
+regions[main] = Main
+regions[footer] = Footer
